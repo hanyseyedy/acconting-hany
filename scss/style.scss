@@ -13,29 +13,29 @@
     --body-font: "Poppins", sans-serif;
     --hover-menu-bg: rgba(12, 15, 25, 0.3);
     --content-title-color: #999ba5;
-    --content-bg: rgba(146 151 179 / 13%);
+    --content-bg: rgba(146, 151, 179, 0.13);
     --button-inactive: rgba(249, 250, 251, 0.55);
     --dropdown-bg: #21242d;
     --dropdown-hover: #2a2e3c;
     --popup-bg: #161925;
     --search-bg: #14162b;
     --overlay-bg: rgba(36, 39, 59, 0.3);
-    --scrollbar-bg: rgba(1 2 3 / 40%);
+    --scrollbar-bg: rgba(1, 2, 3, 0.4);
 }
 
 .light-mode {
-    --theme-bg-color: rgba(255 255 255 / 31%);
+    --theme-bg-color: rgba(255, 255, 255, 0.31);
     --theme-color: #3c3a3a;
     --inactive-color: #333333;
     --button-inactive: #3c3a3a;
-    --search-bg: rgba(255 255 255 / 31%);
+    --search-bg: rgba(255, 255, 255, 0.31);
     --dropdown-bg: #f7f7f7;
-    --overlay-bg: rgba(255 255 255 / 30%);
+    --overlay-bg: rgba(255, 255, 255, 0.3);
     --dropdown-hover: rgba(236 236 236);
-    --border-color: rgba(255 255 255 / 35%);
+    --border-color: rgba(255, 255, 255, 0.35);
     --popup-bg: #ffffff;
-    --hover-menu-bg: rgba(255 255 255 / 35%);
-    --scrollbar-bg: rgba(255 253 253 / 57%);
+    --hover-menu-bg: rgba(255, 255, 255, 0.35);
+    --scrollbar-bg: rgba(255, 253, 253, 0.57);
     --content-title-color: --theme-color;
 }
 
@@ -119,7 +119,7 @@ img {
     }
 
     .dropdown.is-active ul {
-        background-color: rgba(255 255 255 / 94%);
+        background-color: rgba(255, 255, 255, 0.94);
     }
 }
 
@@ -131,7 +131,7 @@ body.light-mode .video-bg:before {
     top: 0;
     width: 100%;
     height: 100vh;
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, rgba(255 255 255 / 45%) 100%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 255, 255, 0.45) 100%);
     backdrop-filter: saturate(3);
 }
 
@@ -243,7 +243,7 @@ body.light-mode .video-bg:before {
         font-size: 15px;
         font-weight: 500;
         padding: 0 20px 0 40px;
-        box-shadow: 0 0 0 2px rgba(134 140 160 / 2%);
+        box-shadow: 0 0 0 2px rgba(134, 140, 160, 0.02);
         background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56.966 56.966' fill='%23717790c7'%3e%3cpath d='M55.146 51.887L41.588 37.786A22.926 22.926 0 0046.984 23c0-12.682-10.318-23-23-23s-23 10.318-23 23 10.318 23 23 23c4.761 0 9.298-1.436 13.177-4.162l13.661 14.208c.571.593 1.339.92 2.162.92.779 0 1.518-.297 2.079-.837a3.004 3.004 0 00.083-4.242zM23.984 6c9.374 0 17 7.626 17 17s-7.626 17-17 17-17-7.626-17-17 7.626-17 17-17z'/%3e%3c/svg%3e");
         background-size: 14px;
         background-repeat: no-repeat;
